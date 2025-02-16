@@ -1,2 +1,2 @@
 # longdeey.github.io
-My personal website
+Learing Github is fun.
