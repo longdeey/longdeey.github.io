@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #dbe6ed;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #002060;
+    padding-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #002060;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #002060;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.title h1 {
+    color: #ffcc00;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.title p {
+    color: #002060;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    background-color: #ffcc00;
+    padding: 10px;
+    color: #002060;
+    margin: 0 -20px;
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    font-size: 22px;
+    background-color: #ffcc00;
+    padding: 10px;
+    color: #002060;
+    margin: 0 -20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #002060;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.personal-values h2 {
+    background-color: #ffcc00;
+    color: #002060;
+}
+
+.personal-values ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personal-values li {
+    width: 48%; 
+    box-sizing: border-box;
+}
+
