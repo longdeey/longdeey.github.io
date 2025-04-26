@@ -1,0 +1,9 @@
+div {
+    width: 400px;
+}
+div:nth-child(even) { /*Chọn tất cả các thẻ <div> có vị trí là số chẵn (2, 4, 6, 8, ...).*/
+    background: #f9f9f9;
+}
+div:nth-child(2n+1) {
+    background: #ff9;
+}
